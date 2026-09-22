@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>শ্রীভূমি সর্বজনীন সরস্বতী পূজা | Sribhumi Sarbojanin Saraswati Puja</title>
+
+  <meta name="description" content="শ্রীভূমির সর্বজনীন সরস্বতী পূজা — ঐতিহ্য, সংস্কৃতি, জ্ঞান ও ভক্তির এক বার্ষিক মিলনক্ষেত্র।">
+  <meta name="theme-color" content="#17130f">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #110f0d;
+      --bg-soft: #1a1612;
+      --panel: #211b16;
+      --bronze: #b58a52;
+      --bronze-light: #d6b477;
+      --gold: #e0c18a;
+      --cream: #f3ead8;
+      --text: #eee3d0;
+      --muted: #b9aa94;
+      --line: rgba(181, 138, 82, 0.35);
+      --max: 1180px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background:
+        radial-gradient(circle at top, rgba(181,138,82,0.12), transparent 35%),
+        var(--bg);
+      color: var(--text);
+      font-family: "Noto Serif Bengali", serif;
+      line-height: 1.8;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .container {
+      width: min(92%, var(--max));
+      margin: auto;
+    }
+
+    /* ---------- HEADER ---------- */
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(17,15,13,0.94);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .nav {
+      min-height: 76px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+    }
+
+    .brand-mark {
+      width: 48px;
+      height: 48px;
+      border: 1px solid var(--bronze);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--gold);
+      font-family: "Playfair Display", serif;
+      font-size: 25px;
+      box-shadow: inset 0 0 18px rgba(181,138,82,0.12);
+      flex-shrink: 0;
+    }
+
+    .brand-text strong {
+      display: block;
+      color: var(--cream);
+      font-size: 15px;
+      line-height: 1.3;
+    }
+
+    .brand-text span {
+      display: block;
+      color: var(--muted);
+      font-family: "Playfair Display", serif;
+      font-size: 10px;
+      letter-spacing: 0.7px;
+      margin-top: 3px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+    }
+
+    nav a {
+      color: var(--muted);
+      font-size: 14px;
+      transition: 0.25s;
+    }
+
+    nav a:hover {
+      color: var(--gold);
+    }
+
+    .nav-button {
+      border: 1px solid var(--bronze);
+      padding: 7px 15px;
+      border-radius: 20px;
+      color: var(--gold);
+    }
+
+    /* ---------- HERO ---------- */
+
+    .hero {
+      min-height: calc(100vh - 76px);
+      display: flex;
+      align-items: center;
+      position: relative;
+      text-align: center;
+      padding: 80px 0 90px;
+      overflow: hidden;
+    }
+
+    .hero::before,
+    .hero::after {
+      content: "";
+      position: absolute;
+      border: 1px solid rgba(181,138,82,0.14);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .hero::before {
+      width: 520px;
+      height: 520px;
+      left: -250px;
+      top: 10%;
+    }
+
+    .hero::after {
+      width: 680px;
+      height: 680px;
+      right: -360px;
+      bottom: -280px;
+    }
+
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      width: min(900px, 100%);
+      margin: auto;
+    }
+
+    .hero-logo {
+      width: 170px;
+      height: 170px;
+      margin: 0 auto 30px;
+      border: 1px solid var(--bronze);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      position: relative;
+      box-shadow:
+        0 0 0 8px rgba(181,138,82,0.035),
+        0 0 55px rgba(181,138,82,0.10);
+    }
+
+    .hero-logo::before {
+      content: "";
+      position: absolute;
+      inset: 9px;
+      border: 1px solid rgba(214,180,119,0.38);
+      border-radius: 50%;
+    }
+
+    .hero-logo-symbol {
+      color: var(--bronze-light);
+      font-family: "Playfair Display", serif;
+      font-size: 82px;
+      line-height: 1;
+    }
+
+    .eyebrow {
+      color: var(--bronze-light);
+      font-family: "Playfair Display", serif;
+      letter-spacing: 2px;
+      font-size: 12px;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      color: var(--cream);
+      font-size: clamp(32px, 6vw, 62px);
+      line-height: 1.25;
+      font-weight: 600;
+      margin-bottom: 14px;
+    }
+
+    .hero-subtitle {
+      color: var(--gold);
+      font-family: "Playfair Display", serif;
+      font-size: clamp(17px, 3vw, 24px);
+      margin-bottom: 22px;
+    }
+
+    .hero-description {
+      max-width: 720px;
+      margin: auto;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .hero-actions {
+      margin-top: 32px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 11px 22px;
+      border-radius: 28px;
+      border: 1px solid var(--bronze);
+      color: var(--cream);
+      font-size: 14px;
+      transition: 0.25s;
+    }
+
+    .button.primary {
+      background: linear-gradient(135deg, #a77943, #c69d61);
+      color: #17120d;
+      border-color: transparent;
+      font-weight: 600;
+    }
+
+    .button:hover {
+      transform: translateY(-2px);
+    }
+
+    /* ---------- SECTION ---------- */
+
+    section {
+      padding: 90px 0;
+    }
+
+    .section-heading {
+      text-align: center;
+      max-width: 760px;
+      margin: 0 auto 45px;
+    }
+
+    .section-heading .small {
+      color: var(--bronze-light);
+      font-family: "Playfair Display", serif;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .section-heading h2 {
+      color: var(--cream);
+      font-size: clamp(27px, 4vw, 42px);
+      margin: 8px 0 12px;
+      font-weight: 600;
+    }
+
+    .section-heading p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    /* ---------- ABOUT ---------- */
+
+    .about {
+      background: linear-gradient(
+        180deg,
+        transparent,
+        rgba(181,138,82,0.035),
+        transparent
+      );
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+      align-items: stretch;
+    }
+
+    .card {
+      background: linear-gradient(
+        145deg,
+        rgba(255,255,255,0.025),
+        rgba(181,138,82,0.045)
+      );
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 32px;
+    }
+
+    .card h3 {
+      color: var(--gold);
+      font-size: 22px;
+      margin-bottom: 13px;
+    }
+
+    .card p {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .heritage-line {
+      display: flex;
+      gap: 18px;
+      align-items: center;
+      margin-top: 25px;
+      padding-top: 22px;
+      border-top: 1px solid var(--line);
+    }
+
+    .heritage-number {
+      color: var(--bronze-light);
+      font-family: "Playfair Display", serif;
+      font-size: 34px;
+    }
+
+    .heritage-line span {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* ---------- PUJA ---------- */
+
+    .puja-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    .puja-card {
+      padding: 28px;
+      text-align: center;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: var(--panel);
+    }
+
+    .puja-icon {
+      width: 54px;
+      height: 54px;
+      margin: 0 auto 17px;
+      border: 1px solid var(--bronze);
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: var(--gold);
+      font-family: "Playfair Display", serif;
+      font-size: 22px;
+    }
+
+    .puja-card h3 {
+      color: var(--cream);
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+
+    .puja-card p {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    /* ---------- ARCHIVE ---------- */
+
+    .archive {
+      border-top: 1px solid rgba(181,138,82,0.15);
+      border-bottom: 1px solid rgba(181,138,82,0.15);
+      background: #15120f;
+    }
+
+    .archive-box {
+      min-height: 300px;
+      border: 1px dashed rgba(181,138,82,0.45);
+      border-radius: 20px;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 45px;
+      background:
+        radial-gradient(circle, rgba(181,138,82,0.08), transparent 60%);
+    }
+
+    .archive-box h3 {
+      color: var(--gold);
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .archive-box p {
+      color: var(--muted);
+      max-width: 620px;
+      margin: auto;
+      font-size: 14px;
+    }
+
+    /* ---------- VENUE ---------- */
+
+    .venue-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+
+    .venue-card {
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 32px;
+      background: var(--panel);
+    }
+
+    .venue-card h3 {
+      color: var(--gold);
+      margin-bottom: 12px;
+    }
+
+    .venue-card p {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    /* ---------- CONTACT ---------- */
+
+    .contact {
+      text-align: center;
+    }
+
+    .contact-box {
+      max-width: 760px;
+      margin: auto;
+      padding: 42px 28px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background:
+        radial-gradient(circle at center, rgba(181,138,82,0.09), transparent 65%),
+        var(--panel);
+    }
+
+    .contact-box h2 {
+      color: var(--cream);
+      font-size: 29px;
+      margin-bottom: 12px;
+    }
+
+    .contact-box p {
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    /* ---------- FOOTER ---------- */
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 40px 0 25px;
+      background: #0d0c0a;
+    }
+
+    .footer-main {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+      gap: 30px;
+      margin-bottom: 30px;
+    }
+
+    footer h3 {
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    footer p,
+    footer a {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: flex-end;
+      align-content: flex-start;
+    }
+
+    .copyright {
+      padding-top: 20px;
+      border-top: 1px solid rgba(181,138,82,0.18);
+      text-align: center;
+      color: #817666;
+      font-size: 11px;
+    }
+
+    /* ---------- MOBILE ---------- */
+
+    @media (max-width: 800px) {
+
+      nav {
+        display: none;
+      }
+
+      .nav {
+        min-height: 68px;
+      }
+
+      .brand-text strong {
+        font-size: 13px;
+      }
+
+      .brand-text span {
+        font-size: 8px;
+      }
+
+      .hero {
+        min-height: auto;
+        padding: 65px 0 80px;
+      }
+
+      .hero-logo {
+        width: 145px;
+        height: 145px;
+      }
+
+      .hero-logo-symbol {
+        font-size: 68px;
+      }
+
+      section {
+        padding: 70px 0;
+      }
+
+      .about-grid,
+      .venue-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .puja-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-main {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-links {
+        justify-content: flex-start;
+      }
+    }
+
+    @media (max-width: 420px) {
+
+      .container {
+        width: 90%;
+      }
+
+      h1 {
+        font-size: 31px;
+      }
+
+      .hero-description {
+        font-size: 14px;
+      }
+
+      .card,
+      .venue-card {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ================= HEADER ================= -->
+
+  <header>
+    <div class="container nav">
+
+      <a href="#home" class="brand">
+
+        <div class="brand-mark">
+          অ
+        </div>
+
+        <div class="brand-text">
+          <strong>শ্রীভূমির সর্বজনীন সরস্বতী পূজা</strong>
+          <span>SRIBHUMI SARBOJANIN SARASWATI PUJA</span>
+        </div>
+
+      </a>
+
+      <nav>
+        <a href="#home">প্রচ্ছদ</a>
+        <a href="#about">আমাদের কথা</a>
+        <a href="#puja">পূজা</a>
+        <a href="#archive">আর্কাইভ</a>
+        <a href="#venue">স্থান</a>
+        <a href="#contact" class="nav-button">যোগাযোগ</a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+
+  <main>
+
+    <section class="hero" id="home">
+
+      <div class="container hero-inner">
+
+        <div class="hero-logo">
+          <div class="hero-logo-symbol">অ</div>
+        </div>
+
+        <div class="eyebrow">
+          ঐতিহ্য • জ্ঞান • সংস্কৃতি • সম্প্রীতি
+        </div>
+
+        <h1>
+          শ্রীভূমির সর্বজনীন<br>
+          সরস্বতী পূজা
+        </h1>
+
+        <div class="hero-subtitle">
+          Sribhumi Sarbojanin Saraswati Puja
+        </div>
+
+        <p class="hero-description">
+          জ্ঞান, বিদ্যা, শিল্প ও সংস্কৃতির আরাধনাকে কেন্দ্র করে
+          শ্রীভূমির মানুষের দীর্ঘদিনের এক আন্তরিক মিলনোৎসব।
+          ঐতিহ্যের ধারাকে সঙ্গে নিয়ে প্রতি বছর আমরা একত্রিত হই
+          দেবী সরস্বতীর চরণে।
+        </p>
+
+        <div class="hero-actions">
+          <a href="#about" class="button primary">
+            আমাদের সম্পর্কে
+          </a>
+
+          <a href="#archive" class="button">
+            স্মৃতি ও আর্কাইভ
+          </a>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div class="small">
+            আমাদের পরিচয়
+          </div>
+
+          <h2>
+            একটি পূজা, একটি ঐতিহ্য
+          </h2>
+
+          <p>
+            বছরের একটি বিশেষ দিনকে ঘিরে গড়ে ওঠা এই আয়োজন
+            আজ স্মৃতি, সংস্কৃতি ও মানুষের মিলনের একটি ধারাবাহিকতা।
+          </p>
+
+        </div>
+
+
+        <div class="about-grid">
+
+          <div class="card">
+
+            <h3>শ্রীভূমির কথা</h3>
+
+            <p>
+              শ্রীভূমির সর্বজনীন সরস্বতী পূজা কেবল একটি বার্ষিক
+              পূজার আয়োজন নয়। এটি স্থানীয় মানুষের অংশগ্রহণ,
+              পারস্পরিক সহযোগিতা এবং সাংস্কৃতিক ঐতিহ্যের সঙ্গে
+              জড়িয়ে থাকা একটি দীর্ঘ পথচলা।
+            </p>
+
+            <div class="heritage-line">
+              <div class="heritage-number">৩০+</div>
+
+              <span>
+                বছরেরও বেশি সময় ধরে<br>
+                নিরবচ্ছিন্ন বার্ষিক আয়োজন
+              </span>
+            </div>
+
+          </div>
+
+
+          <div class="card">
+
+            <h3>আমাদের ভাবনা</h3>
+
+            <p>
+              বিদ্যার দেবী সরস্বতীর আরাধনার মধ্য দিয়ে জ্ঞান,
+              সৃজনশীলতা, শিল্প, সাহিত্য ও সংস্কৃতির প্রতি
+              শ্রদ্ধাকে সামনে রাখা—এবং সকলের অংশগ্রহণে
+              একটি সুন্দর উৎসবের পরিবেশ তৈরি করাই আমাদের
+              মূল ভাবনা।
+            </p>
+
+            <div class="heritage-line">
+              <div class="heritage-number">∞</div>
+
+              <span>
+                প্রজন্ম থেকে প্রজন্মে<br>
+                ঐতিহ্যের ধারাবাহিকতা
+              </span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PUJA ================= -->
+
+    <section id="puja">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div class="small">
+            Saraswati Puja
+          </div>
+
+          <h2>
+            পূজা ও উৎসব
+          </h2>
+
+          <p>
+            পূজার দিনকে ঘিরে আচার, অঞ্জলি, প্রসাদ ও সাংস্কৃতিক
+            মিলন—সবকিছুই আমাদের বার্ষিক আয়োজনের অংশ।
+          </p>
+
+        </div>
+
+
+        <div class="puja-grid">
+
+          <div class="puja-card">
+
+            <div class="puja-icon">শ্রী</div>
+
+            <h3>সরস্বতী আরাধনা</h3>
+
+            <p>
+              দেবী সরস্বতীর পূজা ও পুষ্পাঞ্জলির মাধ্যমে
+              বিদ্যা ও জ্ঞানের আরাধনা।
+            </p>
+
+          </div>
+
+
+          <div class="puja-card">
+
+            <div class="puja-icon">অ</div>
+
+            <h3>অঞ্জলি ও প্রসাদ</h3>
+
+            <p>
+              সকলের অংশগ্রহণে অঞ্জলি এবং পরবর্তীতে
+              প্রসাদ বিতরণের আয়োজন।
+            </p>
+
+          </div>
+
+
+          <div class="puja-card">
+
+            <div class="puja-icon">♪</div>
+
+            <h3>সংস্কৃতি ও মিলন</h3>
+
+            <p>
+              পূজাকে কেন্দ্র করে মানুষের মিলন এবং
+              সাংস্কৃতিক পরিবেশের মধ্য দিয়ে উৎসবের আবহ।
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ARCHIVE ================= -->
+
+    <section class="archive" id="archive">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div class="small">
+            Our Heritage
+          </div>
+
+          <h2>
+            স্মৃতি ও আর্কাইভ
+          </h2>
+
+          <p>
+            আমাদের পথচলার বিভিন্ন বছরের ছবি, মুহূর্ত ও স্মৃতিকে
+            সংরক্ষণ করার জন্য এই আর্কাইভ।
+          </p>
+
+        </div>
+
+
+        <div class="archive-box">
+
+          <div>
+
+            <h3>
+              পুরনো দিনের ছবি ও স্মৃতি
+            </h3>
+
+            <p>
+              ২০১৬ সাল থেকে সংরক্ষিত বিভিন্ন ছবি ও পূজার
+              স্মৃতিগুলি পর্যায়ক্রমে এখানে যুক্ত করা হবে।
+              প্রতি বছরের জন্য আলাদা করে একটি সুন্দর
+              ডিজিটাল আর্কাইভ তৈরি করা হবে।
+            </p>
+
+            <br>
+
+            <a href="#contact" class="button">
+              আর্কাইভ সম্পর্কে জানতে
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= VENUE ================= -->
+
+    <section id="venue">
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <div class="small">
+            Puja Venue
+          </div>
+
+          <h2>
+            পূজার স্থান
+          </h2>
+
+          <p>
+            প্রতি বছর পূজার আয়োজনের স্থান ও অনুষ্ঠান সংক্রান্ত
+            প্রয়োজনীয় তথ্য এখানে প্রকাশ করা হবে।
+          </p>
+
+        </div>
+
+
+        <div class="venue-grid">
+
+          <div class="venue-card">
+
+            <h3>
+              শ্রীভূমি পূজা প্রাঙ্গণ
+            </h3>
+
+            <p>
+              পূজার নির্দিষ্ট স্থান, প্রবেশপথ এবং অন্যান্য
+              প্রয়োজনীয় তথ্য অনুষ্ঠান ঘোষণার সঙ্গে
+              এখানে প্রকাশ করা হবে।
+            </p>
+
+          </div>
+
+
+          <div class="venue-card">
+
+            <h3>
+              অনুষ্ঠান সংক্রান্ত তথ্য
+            </h3>
+
+            <p>
+              পূজার তারিখ, সময়, অঞ্জলি, প্রসাদ বিতরণ এবং
+              অন্যান্য কর্মসূচির বিস্তারিত তথ্য প্রতি বছর
+              যথাসময়ে এই website-এ আপডেট করা হবে।
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact" id="contact">
+
+      <div class="container">
+
+        <div class="contact-box">
+
+          <h2>
+            আমাদের সঙ্গে যোগাযোগ করুন
+          </h2>
+
+          <p>
+            পূজা, অনুষ্ঠান, আর্কাইভ বা website সম্পর্কিত
+            কোনো তথ্যের জন্য আমাদের official যোগাযোগের
+            মাধ্যমে যোগাযোগ করতে পারেন।
+          </p>
+
+          <a
+            href="mailto:sribhumi.sarbojanin@gmail.com"
+            class="button primary"
+          >
+            Official Email
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-main">
+
+        <div>
+
+          <h3>
+            শ্রীভূমির সর্বজনীন সরস্বতী পূজা
+          </h3>
+
+          <p>
+            Sribhumi Sarbojanin Saraswati Puja
+          </p>
+
+          <p>
+            ঐতিহ্য • জ্ঞান • সংস্কৃতি • সম্প্রীতি
+          </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+          <a href="#home">প্রচ্ছদ</a>
+          <a href="#about">আমাদের কথা</a>
+          <a href="#puja">পূজা</a>
+          <a href="#archive">আর্কাইভ</a>
+          <a href="#venue">স্থান</a>
+          <a href="#contact">যোগাযোগ</a>
+
+        </div>
+
+      </div>
+
+
+      <div class="copyright">
+
+        © 2026 Sribhumi Sarbojanin Saraswati Puja.
+        All rights reserved.
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+</body>
+</html>
